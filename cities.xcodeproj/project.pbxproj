@@ -13,6 +13,8 @@
 		F624167B2757BB4A00577FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F62416792757BB4A00577FE6 /* Main.storyboard */; };
 		F624167D2757BB4A00577FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F624167C2757BB4A00577FE6 /* Assets.xcassets */; };
 		F62416802757BB4A00577FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F624167E2757BB4A00577FE6 /* LaunchScreen.storyboard */; };
+		F62416882757BCF200577FE6 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62416872757BCF200577FE6 /* DetailsViewController.swift */; };
+		F624168A2757F96F00577FE6 /* city.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62416892757F96F00577FE6 /* city.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F624167C2757BB4A00577FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F624167F2757BB4A00577FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F62416812757BB4A00577FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F62416872757BCF200577FE6 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F62416892757F96F00577FE6 /* city.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = city.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				F62416732757BB4A00577FE6 /* AppDelegate.swift */,
 				F62416752757BB4A00577FE6 /* SceneDelegate.swift */,
 				F62416772757BB4A00577FE6 /* ViewController.swift */,
+				F62416872757BCF200577FE6 /* DetailsViewController.swift */,
 				F62416792757BB4A00577FE6 /* Main.storyboard */,
 				F624167C2757BB4A00577FE6 /* Assets.xcassets */,
 				F624167E2757BB4A00577FE6 /* LaunchScreen.storyboard */,
 				F62416812757BB4A00577FE6 /* Info.plist */,
+				F62416892757F96F00577FE6 /* city.swift */,
 			);
 			path = cities;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				F62416782757BB4A00577FE6 /* ViewController.swift in Sources */,
 				F62416742757BB4A00577FE6 /* AppDelegate.swift in Sources */,
+				F624168A2757F96F00577FE6 /* city.swift in Sources */,
 				F62416762757BB4A00577FE6 /* SceneDelegate.swift in Sources */,
+				F62416882757BCF200577FE6 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7KP5757Z8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = cities/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7KP5757Z8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = cities/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
